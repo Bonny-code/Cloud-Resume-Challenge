@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.min.css" />
+  </head>
+  <body>
+    <div class="print-area">
+      <div class="header">
+        <img
+          src="https://scontent-arn2-2.xx.fbcdn.net/v/t1.6435-1/50917094_2141023675961200_4311136924451471360_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=7206a8&_nc_ohc=AR6NhbdhtyIAX8yFexQ&_nc_ht=scontent-arn2-2.xx&oh=00_AT-ka7I2_ZjT9wmB_isiLe1WPYgbkN0dagLVc_tbfUx-1g&oe=62E11FEA"
+        />
+        <div class="header-text">
+          <h1>
+            Eyabezoh Ndi <br />
+            Boniface
+          </h1>
+          <p>Cloud Engineer</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="left-area">
+          <div class="contact">
+            <h4>CONTACT</h4>
+            <h5>Phone</h5>
+            <p>+358 46 9538791</p>
+            <h5>Email</h5>
+            <p>ndiboniface@outlook.com</p>
+            <h5>Address</h5>
+            <p>
+              Ida Aalbergintie 1B <br />
+              00400 Helsinki, FINLAND
+            </p>
+          </div>
+          <div class="skills">
+            <h1>SKILLS</h1>
+            <div class="bars">
+              <div class="bar">
+                <p>HTML</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>CSS</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>JavaScript</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>AWS</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>Linux</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>Terraform</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>Scripting</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>Node.js</p>
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="follow">
+            <h1>Follow me</h1>
+            <h4>Facebook</h4>
+            <p>Ndi Bonise</p>
+            <h4><a href="https://github.com/Bonny-code">Github</a></h4>
+
+            <h4>
+              <a
+                href="https://www.linkedin.com/in/eyabezoh-ndi-boniface-1441288b"
+                >LinkedIn</a
+              >
+            </h4>
+          </div>
+          <div class="interest">
+            <h1>Interests</h1>
+            <h4>Football</h4>
+            <h4>Reading</h4>
+            <h4>Movies</h4>
+          </div>
+        </div>
+
+        <div class="right-area">
+          <div class="about">
+            <h1><span>About Me</span></h1>
+            <p>
+              I have a background in Web Development from the University of
+              Turku where i was able to learn and gain skills in Frontend and
+              Backend web Development. I also decided to concerntrate on the
+              cloud and learn some cloud skills. I am an AWS Certified Solutions
+              Architect and Cloud Practitioner. In addition to that, i have
+              learned other cloud related skills such as Linux and
+              Infrastructure as Code with using Terraform. I am also a certified
+              Professional Scrum Master1. Before going into tech, i had a
+              Masters degree in Environmental Law and Policy and also a
+              Bachelors degree in law.
+            </p>
+          </div>
+          <div class="education">
+            <h1><span>EDUCATION</span></h1>
+            <div class="edu-group">
+              <h4>UNIVERSITY OF TURKU</h4>
+              <span>2021-2022</span>
+              <p>FullStack Web Development</p>
+            </div>
+            <div class="edu-group">
+              <h4>UNIVERSITY OF EASTERN FINLAND, JOENSUU</h4>
+              <span>2016-2019</span>
+              <p>Masters Degree in Energy and Climate Change Law and Policy</p>
+            </div>
+            <div class="edu-group">
+              <h4>UNIVERSITY OF BUEA, CAMEROON</h4>
+              <span>2007-2010</span>
+              <p>Bachelor of Law</p>
+            </div>
+          </div>
+          <div class="work">
+            <h1><span>Work Experience</span></h1>
+            <div class="work-group">
+              <h3>Controls Assistant</h3>
+              <h4>Lindstrom</h4>
+              <span>2018-2022</span>
+              <p>
+                In charge of fulfilling customer orders and ensuring they get
+                delivered on time. The role also involves managing other smaller
+                but important activities.
+              </p>
+            </div>
+            <div class="work-group">
+              <h3>Insurance Agent</h3>
+              <h4>Samaritan Insurance</h4>
+              <span>2014-2016</span>
+              <p>
+                I was in charge of renewing customers Auto Insurance and
+                reminding them when the policies are about to end and also bring
+                in new customers.
+              </p>
+            </div>
+            <div class="work-group">
+              <h3>Restaurant Manager</h3>
+              <h4>Shamrock Hotel Kumba, Cameroon</h4>
+              <span>2011-2012</span>
+              <p>
+                I was a fresh graduate and worked as a waiter and later went on
+                to manage the restaurant. I was incharge of the inventory and
+                the daily activities of the restaurant including managing some
+                staff members.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button>Print CV</button>
+
+    <script src="all.min.js"></script>
+
+    <script>
+      var btn = document.querySelector("button");
+      btn.onclick = () => {
+        window.print();
+      };
+    </script>
+  </body>
+</html>
