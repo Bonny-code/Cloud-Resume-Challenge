@@ -247,3 +247,28 @@ button:hover {
     visibility: visible;
   }
 }
+
+/* Styles for reset button */
+
+.website-counter {
+  background-color: #848b9b;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+  margin-right: 100px;
+}
